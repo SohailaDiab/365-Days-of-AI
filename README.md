@@ -1,7 +1,7 @@
 # 365-Days-of-AI
 Documenting my AI journey :D
 
-I will be following Alexey's ML ZoomCamp along with Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow.
+I will be following Alexey's **ML ZoomCamp** along with **Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow**.
 
 <details><summary>ZoomCamp Plan</summary>
 
