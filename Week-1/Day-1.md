@@ -46,3 +46,6 @@ This can be done by trying to notice patterns that we find in the spam emails, s
 The issue here is that the spam emails change over time, and every time it changes we need to update the code and add more and more if statements. This will be a never-ending process and the code will be very difficult to maintain for the developer and will be prone to errors.
 
 This is where machine learning comes in. We can take all the emails users have marked as spam as well as emails that are not spam and use them to train the machine learning model. This trained model will then be able to classify if an email is spam or not. The predictions are probabilities, and to make a decision it is necessary to define a threshold to classify emails as spam or not.
+
+## 3. Supervised Machine Learning
+Supervised ML is training the algorithm using labelled data to be able to classify data or predict outcomes accurately. The spam prediction example is SML since the model is trained using the features and target (output) values.
