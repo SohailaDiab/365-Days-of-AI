@@ -49,3 +49,31 @@ This is where machine learning comes in. We can take all the emails users have m
 
 ## 3. Supervised Machine Learning
 Supervised ML is training the algorithm using labelled data to be able to classify data or predict outcomes accurately. The spam prediction example is SML since the model is trained using the features and target (output) values.
+
+![image](https://user-images.githubusercontent.com/70928356/190270146-91096fb2-0974-4676-86db-e98892ca8136.png)
+
+### Types of Supervised ML tasks
+1. **Regression**
+
+Predict a target numerical value *(like price)* given a set of features *(like age, size, etc.)* called predictors.
+The output is an **infinte set of numbers**.
+
+Example:
+Predict car price given its characteristics like age, brand, fuel type, etc.
+
+2. **Classification**
+
+A ML algorithm is required to learn how to assign a class label from the given domain. Target value is a finite set of categories. 
+
+**_Multiclass classification:_**  
+  Classify something into multiple different categories.
+  Example: Classify an image into cars, cats or dogs.
+
+**_Binary classification:_**  
+  Classify something into 2 classes (0 or 1).
+  Example: Classify emails into spam or not spam.
+  
+3. **Ranking**
+ Usually used in cases when you want to rank something; a recommender system for example.
+ 
+Example: A user goes to an e-commerce website. There is an algorithm that ranks the items from the probability that the user would like that item, and returns the top items (highest probability/score). Google also does the same thing by giving the most relevant websites based on the search.
