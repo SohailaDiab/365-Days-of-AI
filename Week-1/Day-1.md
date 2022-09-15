@@ -1,7 +1,7 @@
 #### *15th September 2022*
 # Day 1
 
-<details><summary>Table of Contents</summary>
+### Table of Contents
   
 <ol>
     <li><a href="#1-introduction-to-machine-learning">Introduction to Machine Learning</a></li>
@@ -11,7 +11,6 @@
     <li><a href="#5-model-selection">Model Selection</a></li>
   </ol>
 
-</details>
 
 ## 1. Introduction to Machine Learning
 ### What is ML?
@@ -148,6 +147,7 @@ We will split the data into train, validation and test.
 
 First, we will train part of the dataset and then evaluate using different models in the validation set.
 We will then pick the model with the highest accuracy and evaluate it using the test set.
+
 ![image](https://user-images.githubusercontent.com/70928356/190409146-704d537e-7adc-4618-855a-b49b0fb8d53d.png)
 
 1. Split
