@@ -1,13 +1,15 @@
-# 365-Days-of-AI
+# 365-Days-of-AI 🤖🙌
 Documenting my AI journey :D
 
-I will be following Alexey's **ML ZoomCamp** along with **Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow**.
+For now (probably the next 3 months), I will mainly be following Alexey's **ML ZoomCamp** along with **Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow**.
+
+Other than that, I will document my side projects as well as ML and DL topics that I learn about.
 
 <details><summary>ZoomCamp Plan</summary>
 
 | Id | Module Session                                | Progress | Link    | 
 |----|-----------------------------------------------|-----|--------------|
-|01  | Introduction to Machine Learning              | :white_check_mark: | [Intro] |
+|01  | Introduction to Machine Learning              | :white_check_mark: | [<a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-1.md">Introduction to Machine Learning</a>] |
 |02  | Machine Learning for Regression               | :x: | []|
 |03  | Machine Learning for Classification           | :x: | []|
 |04  | Evaluation Metrics for Classification         | :x: | []|
@@ -30,4 +32,4 @@ I will be following Alexey's **ML ZoomCamp** along with **Hands-on Machine Learn
 
 ## Week 1 
 - **Day 1** 
-  - Introduction to Machine Learning
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-1.md">Introduction to Machine Learning</a>
