@@ -1,4 +1,4 @@
-#### *14th September 2022*
+#### *15th September 2022*
 # Day 1
 
 <details><summary>Table of Contents</summary>
@@ -8,6 +8,7 @@
     <li><a href="2-#machine-learning-vs-rule-based-systems">Machine Learning vs Rule-based Systems</a></li>
     <li><a href="#3-supervised-machine-learning">Supervised Machine Learning</a></li>
     <li><a href="#4-crisp-dm-ml-process">CRISP-DM ML Process</a></li>
+    <li><a href="#5-model-selection">Model Selection</a></li>
   </ol>
 
 </details>
@@ -132,3 +133,26 @@ Often happens with evaluation; the way models are evaluated is usually through d
 **ML projects require continuous iterations through the whole process!**
 
 ![image](https://user-images.githubusercontent.com/70928356/190294398-9962b221-a709-4a49-b2e9-83201c6e64ef.png)
+
+## 5. Model Selection
+
+We try different models and our goal is to choose the best model.
+
+Trying all the models and seeing which one has the highest accuracy sounds good to do. However, there is a problem with this approach.
+
+This is called **multiple comparison problems**, where we perform the same comparison many times using different models and evaluate them against the same validation dataset. A model can get lucky at predicting a particular part of the dataset and get a very high accuracy, but when given another part of the dataset it can get a lower accuracy and vice versa. 
+
+**To overcome this issue:**
+
+We will split the data into train, validation and test.
+
+First, we will train part of the dataset and then evaluate using different models in the validation set.
+We will then pick the model with the highest accuracy and evaluate it using the test set.
+![image](https://user-images.githubusercontent.com/70928356/190409146-704d537e-7adc-4618-855a-b49b0fb8d53d.png)
+
+1. Split
+2. Train
+3. Validate using different models *(re iterate throught steps 2 and 3 as much as we need)*
+4. Select the best model
+5. Use the best model selected on the test data
+6. Check if the test accuracy is good
