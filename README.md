@@ -35,4 +35,7 @@ Other than that, I will document my side projects as well as ML and DL topics th
 
 ## Week 1 
 - **Day 1** 
-  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-1.md">Introduction to Machine Learning</a>
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-1/Day-1.md">Introduction to Machine Learning</a>
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-1/Week1_HW.ipynb">Week 1 ZoomCamp HW</a>
+  
+  
