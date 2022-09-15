@@ -1,7 +1,7 @@
 # 365-Days-of-AI 🤖🙌
 Documenting my AI journey :D
 
-For now (probably the next 3 months), I will mainly be following Alexey's **ML ZoomCamp** along with **Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow**.
+For now (the next few months), I will mainly be following Alexey's **ML ZoomCamp** along with **Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow**.
 
 Other than that, I will document my side projects as well as ML and DL topics that I learn about.
 
@@ -29,6 +29,9 @@ Other than that, I will document my side projects as well as ML and DL topics th
 |14  | Article                                       | :x: | []|
 
 </details>
+
+<a href="https://github.com/alexeygrigorev/mlbookcamp-code">ZoomCamp Repo</a>
+
 
 ## Week 1 
 - **Day 1** 
