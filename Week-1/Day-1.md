@@ -1,6 +1,17 @@
 #### *14th September 2022*
 # Day 1
 
+<details><summary>Table of Contents</summary>
+  
+<ol>
+    <li><a href="#1-introduction-to-machine-learning">Introduction to Machine Learning</a></li>
+    <li><a href="2-#machine-learning-vs-rule-based-systems">Machine Learning vs Rule-based Systems</a></li>
+    <li><a href="#3-supervised-machine-learning">Supervised Machine Learning</a></li>
+    <li><a href="#4-crisp-dm-ml-process">CRISP-DM ML Process</a></li>
+  </ol>
+
+</details>
+
 ## 1. Introduction to Machine Learning
 ### What is ML?
 It is the science of programming computers so that they can learn from data:
@@ -77,3 +88,47 @@ A ML algorithm is required to learn how to assign a class label from the given d
  Usually used in cases when you want to rank something; a recommender system for example.
  
 Example: A user goes to an e-commerce website. There is an algorithm that ranks the items from the probability that the user would like that item, and returns the top items (highest probability/score). Google also does the same thing by giving the most relevant websites based on the search.
+
+## 4. CRISP-DM ML Process
+Cross-Industry Standard Process for Data Mining.
+A methodology for how machine learning projects should be organized.
+
+1. **Business understanding**
+
+Identify and understand the problem to be solved, as well as understand how to measure the success of the project. The goal of the project has to be measurable.
+
+An important question at this step: **Do we actually need ML?**
+
+2. **Data understanding**
+
+Analyze available data sources and if more data is needed.
+What is learnt at this step may influence the initial understanding of the problem, so we can go back and revise what we did in the first step.
+
+3. **Data preparation**
+
+Transform the data in such a way so that it can be put into a ML algorithm.
+- Clean the data
+- Build the pipelines
+- Convert data into tabular form
+
+4. **Modeling**
+
+Training the model. The actual machine learning happens here.
+Sometimes, we may go back to data preparation to add new features or fix data issues.
+
+5. **Evaluation**
+
+Measure how well the model performs and solves the business problem.
+
+6. **Deployment**
+
+Often happens with evaluation; the way models are evaluated is usually through deployment.
+
+- Online Evaluation: Evaluation of live users
+- Roll the model to all users
+- Proper monitoring
+- Ensuring the quality and maintainability
+
+**ML projects require continuous iterations through the whole process!**
+
+![image](https://user-images.githubusercontent.com/70928356/190294398-9962b221-a709-4a49-b2e9-83201c6e64ef.png)
