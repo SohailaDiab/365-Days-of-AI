@@ -31,3 +31,21 @@ df.Transmission Type
 ```python
 df.transmission_type
 ```
+### 2. Exploratory Data Analysis (EDA)
+- Find the number of unique values for each column, as well as the first 5 unique values
+- Find the distribution of ``mrsp`` (price) by plotting a histogram
+  -   ![image](https://user-images.githubusercontent.com/70928356/190876437-55735ee3-1bee-4cb6-8678-fdf12b25482f.png)
+     > This type of distribution is called **Long Tail Distribution**
+     
+     > This kind of distribution is not really good for ML (the tail will confuse the model)
+     
+     > To get rid of this long tail, we will apply logarithmic distribution to get more compact values
+  -   **Logarithmic distribution:**
+      -   Since we cannot apply the log function to 0 (will be undefined), we will add 1 to each value to be sure that there are no 0s.
+          ```python 
+              np.log([0+1, 1+1, 10+1, 1000+1, 100000+1])
+              output: array([ 0. , 0.69314718, 2.39789527, 6.90875478, 11.51293546])
+          ```
+          A NumPy function adds 1s manually, called ```np.log1p()```
+  - ![image](https://user-images.githubusercontent.com/70928356/190876668-7f69b071-ca60-45b0-b443-a003a6cfc987.png)
+  > We can now see that the long tail is gone and values are more compact
