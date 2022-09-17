@@ -49,3 +49,13 @@ df.transmission_type
           A NumPy function adds 1s manually, called ```np.log1p()```
   - ![image](https://user-images.githubusercontent.com/70928356/190876668-7f69b071-ca60-45b0-b443-a003a6cfc987.png)
   > We can now see that the long tail is gone and values are more compact
+ 
+### 3. Setting up the validation framework
+- Shuffle the dataset 
+> If you split the data then the resulting sets won't represent the true distribution of the dataset. Therefore, we have to shuffle the original dataset in order to minimise variance and ensure that the model will generalise well to new, unseen data points.
+- Split dataset into:
+  - Train: 60%
+  - Validation: 20%
+  - Test: 20%
+- Apply log transformation to target variable y `msrp`
+- Remove target variable from dataframe to avoid using it as a feature
