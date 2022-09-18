@@ -50,6 +50,21 @@ df.transmission_type
   - ![image](https://user-images.githubusercontent.com/70928356/190876668-7f69b071-ca60-45b0-b443-a003a6cfc987.png)
   > We can now see that the long tail is gone and values are more compact
  
+#### 💡 More about long tail distribution
+![image](https://user-images.githubusercontent.com/70928356/190880185-63787ae7-8311-4d68-b8d6-44d4105f4b1e.png)
+
+**What is it?**
+
+Long tail distribution *(also referred to as power law and pareto)* is a distribution with a trailing end and the events on the end of the tail have a very low probability of happening. It is a subtype of heavy-tailed distribution.
+
+Examples that exhibit this distribution:
+- Income distribution of a business 
+- Intensity of earthquakes
+- Occurrence of certain words in a given language
+
+<a href="https://towardsdatascience.com/the-power-of-long-tailed-distributions-bd46f8856039">A great article about this</a>
+<a href="https://www.statology.org/long-tail-distribution/">More examples</a>
+
 ### 3. Setting up the validation framework
 - Shuffle the dataset 
 > If you split the data then the resulting sets won't represent the true distribution of the dataset. Therefore, we have to shuffle the original dataset in order to minimise variance and ensure that the model will generalise well to new, unseen data points.
