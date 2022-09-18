@@ -14,7 +14,15 @@ How can we help a user select the best price for their car?
 - Regularization
 - Using the model
 
-**Notebook:**
+<a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/CarPricePrediction.ipynb">Notebook</a>
+
+### Table of Contents
+
+<ol>
+    <li><a href="#1-data-preparation">Data preparation</a></li>
+    <li><a href="#2-exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a></li>
+    <li><a href="#3-setting-up-the-validation-framework">Setting up the validation framework</a></li>
+</ol>
 
 ### 1. Data preparation
 - Change the column names to all lowercase and replace spaces with underscores
@@ -72,9 +80,13 @@ It’s important to be mindful of long-tailed distributions in classification an
 
 We can apply logarithmic transformation to get more compact values.
 
-<a href="https://towardsdatascience.com/the-power-of-long-tailed-distributions-bd46f8856039">A great article about this</a>
+**Some interesting articles:**
 
-<a href="https://www.statology.org/long-tail-distribution/">More examples</a>
+https://towardsdatascience.com/the-power-of-long-tailed-distributions-bd46f8856039
+
+https://www.statology.org/long-tail-distribution/
+
+https://www.nngroup.com/articles/long-tail/
 
 ### 3. Setting up the validation framework
 - Shuffle the dataset 
