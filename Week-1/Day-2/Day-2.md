@@ -39,7 +39,7 @@ df.transmission_type
      
      > This kind of distribution is not really good for ML (the tail will confuse the model)
      
-     > To get rid of this long tail, we will apply logarithmic distribution to get more compact values
+     > To get rid of this long tail, we will apply logarithmic transformation to get more compact values
   -   **Logarithmic distribution:**
       -   Since we cannot apply the log function to 0 (will be undefined), we will add 1 to each value to be sure that there are no 0s.
           ```python 
@@ -57,10 +57,20 @@ df.transmission_type
 
 Long tail distribution *(also referred to as power law and pareto)* is a distribution with a trailing end and the events on the end of the tail have a very low probability of happening. It is a subtype of heavy-tailed distribution.
 
-Examples that exhibit this distribution:
+Power laws describe an exponential relation between the size of an event and the frequency of it occurring.
+
+**Examples that exhibit this distribution:**
 - Income distribution of a business 
 - Intensity of earthquakes
 - Occurrence of certain words in a given language
+
+**Why is it important?**
+
+It’s important to be mindful of long-tailed distributions in classification and regression problems because the least frequently occurring values make up the majority of the population. This can ultimately change the way that you deal with outliers, and it also conflicts with some machine learning techniques with the assumption that the data is normally distributed.
+
+**How to deal with long-tailed distributions in the data?**
+
+We can apply logarithmic transformation to get more compact values.
 
 <a href="https://towardsdatascience.com/the-power-of-long-tailed-distributions-bd46f8856039">A great article about this</a>
 
