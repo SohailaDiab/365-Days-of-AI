@@ -63,6 +63,7 @@ Examples that exhibit this distribution:
 - Occurrence of certain words in a given language
 
 <a href="https://towardsdatascience.com/the-power-of-long-tailed-distributions-bd46f8856039">A great article about this</a>
+
 <a href="https://www.statology.org/long-tail-distribution/">More examples</a>
 
 ### 3. Setting up the validation framework
