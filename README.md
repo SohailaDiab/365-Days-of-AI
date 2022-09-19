@@ -40,5 +40,4 @@ Other than that, I will document my side projects as well as ML and DL topics th
 - **Day 2** 
   - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-2/Day-2.md">Car Price Prediction Project (Data preparation, Exploratory Data Analysis       (EDA), Setting up the validation framework)</a>  
 - **Day 3** 
-  -
   
