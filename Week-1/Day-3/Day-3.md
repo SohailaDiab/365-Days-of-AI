@@ -28,4 +28,4 @@ How can we help a user select the best price for their car?
 </ol>
 
 ### 4. Linear Regression
-
+![image](https://user-images.githubusercontent.com/70928356/191382236-19198e90-8d1b-4c32-90b5-9b17778750ea.png)
