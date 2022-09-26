@@ -28,4 +28,20 @@ How can we help a user select the best price for their car?
 </ol>
 
 ### 4. Linear Regression
+
+Linear regression is a model that is used to solve **regression** problems.
+We **input** to the model a `feature matrix X` and the **output** is a `vector y` containing the predictions.
+The output of the model is a number.
+
+``g(X) ≈ y``
+* g-> Model *(Linear regression)*
+* X -> Feature matrix 
+* y -> Target vector
+
+The LR formula is the sum of the `bias term w0` *(prediction we make without knowing anything about the features)* and each of the `feature values x` multiplied by their corresponding `weights w`.
+
+``g(xi) = w0 + w1⋅xi1 + w2⋅xi2 + w3⋅xi3 + ...``
+
+*compact form:*
+
 ![image](https://user-images.githubusercontent.com/70928356/191382236-19198e90-8d1b-4c32-90b5-9b17778750ea.png)
