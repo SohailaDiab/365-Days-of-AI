@@ -52,3 +52,31 @@ Vector form of LR is the dot product between the feature matrix X and vector of 
 ![image](https://user-images.githubusercontent.com/70928356/192349796-47258f4c-487b-40d5-82dc-f51b96f321a8.png)
 
 <a href="https://colab.research.google.com/drive/1_zlwG_QLW8IgOUGhL48HCfgT3MKCE8bs?usp=sharing">The code of this project</a>
+
+### 4.2. Training Linear Regression: Normal Equation
+`Xw = y`
+
+How to solve for `w` if inverse for `X` exists:
+`w = X^-1 y`
+
+**Issue:**
+
+This `X` is usually a rectangular matrix, so for that matrix the **inverse does not exist**.
+
+**Solution:**
+
+We can find an approximate solution for this by multiplying by the **transpose of X**, giving us the **Gram Matrix** `XT X`: 
+
+![image](https://user-images.githubusercontent.com/70928356/192399301-5452c33f-4659-451a-82ce-4869079d42b5.png)
+
+After that, we multiply by the inverse of the Gram Matrix:
+
+![image](https://user-images.githubusercontent.com/70928356/192399513-b5c4d04f-1928-4884-951b-a4c768b09c76.png)
+
+
+The Gram Matrix multiplied by its inverse becomes an identity matrix, so they cancel out:
+
+![image](https://user-images.githubusercontent.com/70928356/192399581-a0b61b11-2208-4436-ae8f-3c0d0bca8997.png)
+
+<a href="https://colab.research.google.com/drive/1_zlwG_QLW8IgOUGhL48HCfgT3MKCE8bs?usp=sharing">The code of this project</a>
+
