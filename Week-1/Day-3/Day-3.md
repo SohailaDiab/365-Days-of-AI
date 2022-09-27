@@ -27,7 +27,7 @@ How can we help a user select the best price for their car?
   <li><a href="#4-linear-regression">Linear Regression</a></li>
 </ol>
 
-### 4. Linear Regression
+## 4. Linear Regression
 
 Linear regression is a model that is used to solve **regression** problems.
 We **input** to the model a `feature matrix X` and the **output** is a `vector y` containing the predictions.
@@ -46,14 +46,14 @@ The LR formula is the sum of the `bias term w0` *(prediction we make without kno
 
 ![image](https://user-images.githubusercontent.com/70928356/191382236-19198e90-8d1b-4c32-90b5-9b17778750ea.png)
 
-### 4.1. Linear Regression: Vector form
+## 4.1. Linear Regression: Vector form
 Vector form of LR is the dot product between the feature matrix X and vector of weights w. The feature vector includes the bias term with an x value of 1.
 
 ![image](https://user-images.githubusercontent.com/70928356/192349796-47258f4c-487b-40d5-82dc-f51b96f321a8.png)
 
 <a href="https://colab.research.google.com/drive/1_zlwG_QLW8IgOUGhL48HCfgT3MKCE8bs?usp=sharing">The code of this project</a>
 
-### 4.2. Training Linear Regression: Normal Equation
+## 4.2. Training Linear Regression: Normal Equation
 `Xw = y`
 
 How to solve for `w` if inverse for `X` exists:
