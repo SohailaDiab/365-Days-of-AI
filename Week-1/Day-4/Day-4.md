@@ -21,7 +21,7 @@ How can we help a user select the best price for their car?
     <li>Exploratory Data Analysis (EDA)</li>
     <li>Setting up the validation framework</li>
   <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-3/Day-3.md">In Day 3:</a>
-  <li><a href="#4-linear-regression">Linear Regression</a></li>
+  <li>Linear Regression</li>
   <b>Continuation:</b>
   <li><a href="#5-evaluating-the-model-with-rmse">Evaluating the model with RMSE</a></li>
   <li><a href="#6-simple-feature-engineering">Simple Feature Engineering</a></li>
