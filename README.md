@@ -38,8 +38,19 @@ Other than that, I will document my side projects as well as ML and DL topics th
   - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-1/Day-1.md">Introduction to Machine Learning</a>
   - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-1/Week1_HW.ipynb">Week 1 ZoomCamp HW</a>
 - **Day 2** 
-  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-2/Day-2.md">Car Price Prediction Project (Data preparation, Exploratory Data Analysis       (EDA), Setting up the validation framework)</a>
-  - <a href="https://colab.research.google.com/drive/1_zlwG_QLW8IgOUGhL48HCfgT3MKCE8bs?usp=sharing">Notebook</a>
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-2/Day-2.md">Car Price Prediction Project - 1</a>
+    - Data preparation
+    - Exploratory Data Analysis (EDA)
+    - Setting up the validation framework
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/CarPricePrediction.ipynb">Notebook</a>
 - **Day 3** 
-  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-3/Day-3.md">Linear Regression</a>
-  - <a href="https://colab.research.google.com/drive/1_zlwG_QLW8IgOUGhL48HCfgT3MKCE8bs?usp=sharing">Notebook</a>
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-3/Day-3.md">Car Price Prediction Project - 2</a>
+    - Linear Regression
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/CarPricePrediction.ipynb">Notebook</a>
+- **Day 4** 
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-4/Day-4.md">Car Price Prediction Project - 3 (final)</a>
+    - Evaluating the model with RMSE
+    - Simple Feature Engineering
+    - Regularization
+    - Tuning the Model
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/CarPricePrediction.ipynb">Notebook</a>
