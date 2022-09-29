@@ -25,8 +25,9 @@ How can we help a user select the best price for their car?
   <b>Continuation:</b>
   <li><a href="#5-evaluating-the-model-with-rmse">Evaluating the model with RMSE</a></li>
   <li><a href="#6-simple-feature-engineering">Simple Feature Engineering</a></li>
-  <li><a href="#7-simple-feature-engineering">Regularization</a></li>
+  <li><a href="#7-regularization">Regularization</a></li>
   <li><a href="#8-tuning-the-model">Tuning the Model</a></li>
+  <li><a href="#9-summary">Summary</a></li>
 </ol>
 
 ## 5. Evaluating the model with RMSE
@@ -75,3 +76,24 @@ It is thoroughly explained with the code <a href="https://colab.research.google.
 We need to find the best regularization parameter by trying the different values on the validation dataset.
 
 ![image](https://user-images.githubusercontent.com/70928356/193109590-d01c4ae6-b7f1-421f-8f9e-729f6974381d.png)
+
+## 9. Summary
+- Cleaned and prepared the dataset
+- EDA
+- Removed long tail with log transformation
+- Set up validation framework
+  - Split dataset into train, val, test
+- Implemented Linear Regression : output bias term and weights
+- Trained linear regression model
+- Measured performance of model using RMSE
+- Built validation framework
+- Feature Engineering
+  - Created `age` feature by subtracting the year the car was made by the max year
+  - One-hot encoding
+    - Represented each categorical variable with binary columns
+- Solved numerical instability with regularization
+  - Adds small number to the diagonal of `XTX` matrix before inversing it
+  - Tried different regularization parameter to find the one that improved the model the most
+- Trained the final model
+  - Combined the training and validation dataset to create a full train dataset
+- Finally, predicted the price of a random car from the test dataset   
