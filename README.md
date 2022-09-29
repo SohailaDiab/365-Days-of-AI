@@ -54,3 +54,4 @@ Other than that, I will document my side projects as well as ML and DL topics th
     - Regularization
     - Tuning the Model
   - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/CarPricePrediction.ipynb">Notebook</a>
+  - Week 2 ZoomCamp HW (ongoing)
