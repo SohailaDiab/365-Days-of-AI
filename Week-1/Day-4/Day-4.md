@@ -22,9 +22,11 @@ How can we help a user select the best price for their car?
     <li>Setting up the validation framework</li>
   <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-3/Day-3.md">In Day 3:</a>
   <li><a href="#4-linear-regression">Linear Regression</a></li>
-  Continuation:
+  <b>Continuation:</b>
   <li><a href="#5-evaluating-the-model-with-rmse">Evaluating the model with RMSE</a></li>
   <li><a href="#6-simple-feature-engineering">Simple Feature Engineering</a></li>
+  <li><a href="#7-simple-feature-engineering">Regularization</a></li>
+  <li><a href="#8-tuning-the-model">Tuning the Model</a></li>
 </ol>
 
 ## 5. Evaluating the model with RMSE
@@ -59,6 +61,17 @@ The way to represent a categorical column such as `number_of_doors` is as multip
 
 ![image](https://user-images.githubusercontent.com/70928356/193014657-087b897b-22f7-4e3a-ae70-b519ec8e15d0.png)
 
-## Years
+**This goes for all categorical data.**
 
+### Years
 If there is a column such as `years` which contain the year a car was made, it can be better to turn it to `age` to find the age of the car.
+
+## 7. Regularization
+
+It is thoroughly explained with the code <a href="https://colab.research.google.com/drive/1_zlwG_QLW8IgOUGhL48HCfgT3MKCE8bs?authuser=1#scrollTo=VSAT1jI9PYI2">here</a>
+
+## 8. Tuning the Model
+
+We need to find the best regularization parameter by trying the different values on the validation dataset.
+
+![image](https://user-images.githubusercontent.com/70928356/193109590-d01c4ae6-b7f1-421f-8f9e-729f6974381d.png)
