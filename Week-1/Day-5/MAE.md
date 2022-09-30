@@ -40,9 +40,6 @@ Just like RMSE, MAE values can range from 0 to ∞ and the lower the value, the 
 ### When to use each?
 - If you want to give more weights to observations that are further away from the mean, RMSE is more suitable when these large errors are unwanted since it gives a high weight to such errors.
 
-**NOTE:**
-- MAE can be defined as L1 loss.
-- RMSE can be defined as L2 loss.
 
 ## 3. Example of MAE and RMSE
 Let's say we are predicting heights, and these were the results of the actual height, the predicted height and the residual error (actual - predicted):
