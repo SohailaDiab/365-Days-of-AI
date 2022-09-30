@@ -10,7 +10,7 @@ Other than that, I will document my side projects as well as ML and DL topics th
 | Id | Module Session                                | Progress | Link    | 
 |----|-----------------------------------------------|-----|--------------|
 |01  | Introduction to Machine Learning              | :white_check_mark: | [<a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-1.md">Introduction to Machine Learning</a>] |
-|02  | Machine Learning for Regression               | :x: | []|
+|02  | Machine Learning for Regression               | :white_check_mark: | []|
 |03  | Machine Learning for Classification           | :x: | []|
 |04  | Evaluation Metrics for Classification         | :x: | []|
 |05  | Deploying Machine Learning Models             | :x: | []|
