@@ -6,7 +6,7 @@ More on evaluation metrics for regression.
 <ol>
   <li><a href="#1-mean-absolute-error-mae">Mean Absolute Error (MAE)</a></li>
   <li><a href="#2-root-mean-squared-error-rmse-vs-mean-absolute-error-mae">Root Mean Squared Error (RMSE) vs. Mean Absolute Error (MAE)</a></li>
-  <li><a href="#3-example">Example</a></li>
+  <li><a href="#3-example-of-mae-and-rmse">Example of MAE and RMSE</a></li>
 </ol>
 
 ## 1. Mean Absolute Error (MAE)
@@ -32,9 +32,10 @@ Just like RMSE, MAE values can range from 0 to ∞ and the lower the value, the 
 - The lower the value the more accurate the model is.
 
 ### Differences:
-- RMSE takes into account the direction of the error, MSE does not since it takes the absolute value.
-- RMSE is sensitive to outliers (much larger errors) and penalizes large errors since the errors are squared
-- 
+- RMSE is sensitive to outliers 
+- RMSE penalizes large errors since the errors are squared
+- MAE returns values that are more interpretable as it is simply the average of absolute error
+- RMSE is always higher than or equal to MAE since the errors are squared. RMSE == MAE if all of the errors have the same magnitude
 
 ### When to use each?
 - If you want to give more weights to observations that are further away from the mean, RMSE is more suitable when these large errors are unwanted since it gives a high weight to such errors.
@@ -43,7 +44,7 @@ Just like RMSE, MAE values can range from 0 to ∞ and the lower the value, the 
 - MAE can be defined as L1 loss.
 - RMSE can be defined as L2 loss.
 
-## 3. Example
+## 3. Example of MAE and RMSE
 Let's say we are predicting heights, and these were the results of the actual height, the predicted height and the residual error (actual - predicted):
 
 ![image](https://user-images.githubusercontent.com/70928356/193364618-3db9458f-7bc0-423e-a5c1-982acea2b9f3.png)
