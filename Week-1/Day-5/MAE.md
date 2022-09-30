@@ -11,7 +11,7 @@ More on evaluation metrics for regression.
 
 ## 1. Mean Absolute Error (MAE)
 
-### First let's first recall what is Residual Error?
+### Let's first recall what is Residual Error?
 Residual error is the difference between the actual and predicted values.
 
 ### What is Mean Absolute Error (MAE)?
