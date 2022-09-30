@@ -1,6 +1,15 @@
 # Day 5 
 More on evaluation metrics for regression.
-## Mean Absolute Error (MAE)
+
+### Table of Contents
+
+<ol>
+  <li><a href="#1-mean-absolute-error-mae">Mean Absolute Error (MAE)</a></li>
+  <li><a href="#2-root-mean-squared-error-rmse-vs-mean-absolute-error-mae">Root Mean Squared Error (RMSE) vs. Mean Absolute Error (MAE)</a></li>
+  <li><a href="#3-example">Example</a></li>
+</ol>
+
+## 1. Mean Absolute Error (MAE)
 
 ### First let's first recall what is Residual Error?
 Residual error is the difference between the actual and predicted values.
@@ -16,7 +25,7 @@ Just like RMSE, MAE values can range from 0 to ∞ and the lower the value, the 
 
 ![image](https://user-images.githubusercontent.com/70928356/193356543-e6e2ae73-8e91-4fc1-951b-694825b481ed.png)
 
-## Root Mean Squared Error (RMSE) vs. Mean Absolute Error (MAE)
+## 2. Root Mean Squared Error (RMSE) vs. Mean Absolute Error (MAE)
 
 ### Similarities:
 - The resulting values can range from 0 to ∞.
@@ -34,7 +43,7 @@ Just like RMSE, MAE values can range from 0 to ∞ and the lower the value, the 
 - MAE can be defined as L1 loss.
 - RMSE can be defined as L2 loss.
 
-## Example
+## 3. Example
 Let's say we are predicting heights, and these were the results of the actual height, the predicted height and the residual error (actual - predicted):
 
 ![image](https://user-images.githubusercontent.com/70928356/193364618-3db9458f-7bc0-423e-a5c1-982acea2b9f3.png)
