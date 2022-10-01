@@ -55,3 +55,5 @@ Other than that, I will document my side projects as well as ML and DL topics th
     - Tuning the Model
   - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/CarPricePrediction.ipynb">Notebook</a>
   - Week 2 ZoomCamp HW (ongoing)
+- **Day 5** 
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-5/MAE.md">Mean Absolute Error</a>
