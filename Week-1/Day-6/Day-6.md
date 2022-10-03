@@ -46,3 +46,28 @@ We need to predict if a customer in a Telecom company if they will churn or not,
 - Look at numerical and categorical variables
 
 ## 5. Feature Importance: Churn Rate and Risk Ratio
+
+### **What is Risk Ratio?**
+
+It is the ratio of the probability of an outcome in an exposed group to the probability of an outcome in an unexposed group. It is also known as **relative risk**.
+
+To make it more clear, let's use churn as an example. In this case, the exposed group is the feature we want to analyze, for example, the `partner` feature. We want to see if having a partner makes a customer more likely to churn or not.
+
+For that, the exposed group would be the churn rate of the `partner` feature (for each case, has partner or no partner), and the unexposed group would be the `global churn rate` (the churn rate for the whole dataset).
+
+To calculate the risk ratio of customers that have a partner, we simply divide the churn rate of customers with a partner by the global churn. Same goes for customers with no partners.
+
+To sum up: Risk Ratio = cumulative incidence in the 'exposed' group / cumulative incidence in the 'unexposed' (global) group.
+
+![image](https://user-images.githubusercontent.com/70928356/193694966-b9445651-a7e8-4b15-8e84-3f0413b61c80.png)
+
+![image](https://user-images.githubusercontent.com/70928356/193702615-eb096df6-dbb5-48ba-ada8-553e1fc972ef.png)
+
+
+### Okay great, but how can we understand the value of the risk ratio?
+Let's go back to the example example:
+
+- risk>1 : More likely to churn
+- risk<1 : Less likely to churn
+
+So if the risk is 1.22, then it means the churn rate is 22% higher (1.22-1) than the global churn rate. If the risk is 0.75, it means that the churn rate is 25% lower (1-0.75) than the global churn rate.
