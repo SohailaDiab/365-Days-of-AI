@@ -70,7 +70,7 @@ To sum up: `Risk Ratio = cumulative incidence in the 'exposed' group / cumulativ
 
 
 ### Okay great, but how can we understand the value of the risk ratio?
-Let's go back to the example example:
+Let's go back to the churn example:
 
 - risk>1 : More likely to churn
 - risk<1 : Less likely to churn
