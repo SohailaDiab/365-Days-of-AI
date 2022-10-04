@@ -14,7 +14,7 @@ We will use logistic regression to predict churn.
   <li><a href="#4-eda">EDA</a></li>
   <li><a href="#5-feature-importance-churn-rate-and-risk-ratio">Feature Importance: Churn Rate and Risk Ratio</a></li>
   <li><a href="#6-feature-importance-mutual-information">Feature Importance: Mutual Information</a></li>
-  <li><a href="#6-feature-importance-correlation-coefficient">Correlation Coefficient</a></li>
+  <li><a href="#6-feature-importance-correlation-coefficient">Feature Importance: Correlation Coefficient</a></li>
 </ol>
 
 
