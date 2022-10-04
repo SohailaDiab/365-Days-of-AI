@@ -14,7 +14,9 @@ We will use logistic regression to predict churn.
   <li><a href="#4-eda">EDA</a></li>
   <li><a href="#5-feature-importance-churn-rate-and-risk-ratio">Feature Importance: Churn Rate and Risk Ratio</a></li>
   <li><a href="#6-feature-importance-mutual-information">Feature Importance: Mutual Information</a></li>
+  <li><a href="#6-feature-importance-correlation-coefficient">Correlation Coefficient</a></li>
 </ol>
+
 
 
 ## 1. Business Understanding
@@ -78,3 +80,42 @@ So if the risk is 1.22, then it means the churn rate is 22% higher (1.22-1) than
 
 
 ## 6. Feature Importance: Mutual Information
+**What is Mutual Information?**
+
+A way to measure the importance of categorical variables. It is concept from information theory. The Mutual Information between two random variables measures non-linear relations between them. Besides, it indicates how much information can be obtained from a random variable by observing another random variable.
+
+**Example of the relationship we are interested in:**
+- How much do we learn about churn if we observed the value of contract?
+- If we know that a customer has a month-to-month contract, how much do we know about churn?
+
+Mutual information is always larger than or equal to zero, where the larger the value, the greater the relationship between the two variables. If the calculated result is zero, then the variables are independent.
+
+More info: https://quantdare.com/what-is-mutual-information/
+
+## 6. Feature Importance: Correlation Coefficient
+**What is Correlation Coefficient?**
+It is a way to measrure how strong the relationship is between 2 variables. It can range from -1 to 1.
+
+If negative, as value of x increases, value of y decreases (called negative correlation).
+
+If positive, as value of x increases, value of y increases as well (called positive correlation).
+
+- If a correlation is between **0.0 and 0.1**, it is considered a **very low correlation**. Meaning, and increase of one value **barely** leads to an increase of the other variable.
+
+- If a correlation is between **0.2 and 0.5**, it is a **moderate correlation**. Meaning, the increase of the value of a variable **sometimes** leads to an increase of the other variable.
+
+- If a correlation is between **0.6 and 1.0**, it is a **strong correlation**. Meaning, the increase of the value of a variable **often/always** leads to an increase of the other variable.
+
+This goes for negative values as well.
+
+![image](https://user-images.githubusercontent.com/70928356/193743065-84123bc5-be22-43fc-913f-08974175702c.png)
+
+### Let's take an example for correlation between numerical variables and churn.
+
+We have tenure (price customers pay monthly), which contains real numbers ranging from 0 to 72.
+
+**Positive correlation:** More tenure leads to higher churn rate
+
+**Negative correlation:** More tenure leads to lower churn rate
+
+Zero correlation: Tenure has no effect on churn
