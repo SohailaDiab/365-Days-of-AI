@@ -5,7 +5,7 @@ We will use logistic regression to predict churn.
 
 
 ## Table of contents
-<a href="https://colab.research.google.com/drive/1s5r5xXtSXzCOJv-SPOhknk0kzBehS7sA?usp=sharing">Notebook</a>
+<a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/ChurnPrediction.ipynb">Notebook</a>
 
 <ol>
   <li><a href="#1-business-understanding">Business Understanding</a></li>
@@ -16,7 +16,6 @@ We will use logistic regression to predict churn.
   <li><a href="#6-feature-importance-mutual-information">Feature Importance: Mutual Information</a></li>
   <li><a href="#6-feature-importance-correlation-coefficient">Correlation Coefficient</a></li>
 </ol>
-
 
 
 ## 1. Business Understanding
