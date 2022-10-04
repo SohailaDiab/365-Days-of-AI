@@ -89,7 +89,7 @@ A way to measure the importance of categorical variables. It is concept from inf
 
 Mutual information is always larger than or equal to zero, where the larger the value, the greater the relationship between the two variables. If the calculated result is zero, then the variables are independent.
 
-More info: https://quantdare.com/what-is-mutual-information/
+You can see how it is calculated here: https://quantdare.com/what-is-mutual-information/
 
 ## 6. Feature Importance: Correlation Coefficient
 **What is Correlation Coefficient?**
@@ -101,9 +101,9 @@ If positive, as value of x increases, value of y increases as well (called posit
 
 - If a correlation is between **0.0 and 0.1**, it is considered a **very low correlation**. Meaning, and increase of one value **barely** leads to an increase of the other variable.
 
-- If a correlation is between **0.2 and 0.5**, it is a **moderate correlation**. Meaning, the increase of the value of a variable **sometimes** leads to an increase of the other variable.
+- If a correlation is between **0.2 and 0.5**, it is a **moderate correlation**. Meaning, the increase of a variable **sometimes** leads to an increase of the other variable.
 
-- If a correlation is between **0.6 and 1.0**, it is a **strong correlation**. Meaning, the increase of the value of a variable **often/always** leads to an increase of the other variable.
+- If a correlation is between **0.6 and 1.0**, it is a **strong correlation**. Meaning, the increase of a variable **often/always** leads to an increase of the other variable.
 
 This goes for negative values as well.
 
