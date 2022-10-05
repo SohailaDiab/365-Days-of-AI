@@ -14,7 +14,7 @@ We will use logistic regression to predict churn.
   <li><a href="#4-eda">EDA</a></li>
   <li><a href="#5-feature-importance-churn-rate-and-risk-ratio">Feature Importance: Churn Rate and Risk Ratio</a></li>
   <li><a href="#6-feature-importance-mutual-information">Feature Importance: Mutual Information</a></li>
-  <li><a href="#6-feature-importance-correlation-coefficient">Feature Importance: Correlation Coefficient</a></li>
+  <li><a href="#7-feature-importance-correlation-coefficient">Feature Importance: Correlation Coefficient</a></li>
 </ol>
 
 
@@ -91,7 +91,7 @@ Mutual information is always larger than or equal to zero, where the larger the 
 
 You can see how it is calculated here: https://quantdare.com/what-is-mutual-information/
 
-## 6. Feature Importance: Correlation Coefficient
+## 7. Feature Importance: Correlation Coefficient
 **What is Correlation Coefficient?**
 It is a way to measrure how strong the relationship is between 2 variables. It can range from -1 to 1.
 
