@@ -48,10 +48,26 @@ This would cause an issue, since the model interprets larger numbers to have mor
 
 Luckily, one-hot encoding solves this issue. Instead of representing categorical values as numbers ranging from 1-n, we will create multiple categorical columns for each unique value that are assigned a binary value of 0 or 1.
 
-However, if the categorical variable is ordinal (meaning that the values can be ordered such as very high to very low), they can be handled in a different way.
+However, if the categorical variable is ordinal (meaning that the values can be ordered such as very high to very low), they can be handled in a different way such as Ordinal Encoding.
+
+### How do we implement one-hot encoding?
+***You can see the full implementation in the notebook.***
+
+We make use of `DictVectorizer()`, which transforms lists of feature-value mappings to vectors 
+
+1. Turn records into dictionary by using `df.to_dict(orient='records')`
+2. Create a `DictVictorizer()` and set the `sparse` parameter to False.
+3. Fit `DictVictorizer()` by passing to it the dictionaries
+4. See what are the feature names by `dv.get_feature_names()`, which based on that it creates the feature matrix
+5. Use `dv.transform(dicts)` to get the encoded matrix. This will be our X.
+
+`DictVictorizer()` is smart enough to recognize numerical variables, and it leaves it as it is. So, there will be no issue with passing it numerical variables.
 
 ### Ever wondered why is it called one-hot encoding?
 "Hot" means that the value is activated, and we activate it by representing it as a 1. Deactivated values are encoded as 0s.<br/>
-The name originally comes from electronics, so if there's currency flowing through then it is "hot" and encoded as 1.
+It is called one-hot because only one bit is “hot” or TRUE at any time.
+
+<br/>
+You can read more about other techniques in categorical data encoding <a href="https://analyticsindiamag.com/a-complete-guide-to-categorical-data-encoding/">here</a>.
 
 ## 9. Logistic Regression
