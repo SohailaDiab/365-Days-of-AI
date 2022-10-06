@@ -85,3 +85,31 @@ g(xi) -> 0-1 (probability of xi belonging to the positive class)
 
 The output is the probability of the positive target variable occuring. <br/>
 Using the churn prediction example, if the output is 0.7, it means that there is a 70% chance that the customer will churn.
+
+> It is very similar to linear regression, except that we have scores and we apply sigmoid function to it.<br/> Both linear and logistic regression are linear models. The reason they are called linear is because we they use the dot product (which is called linear operator in linear algebra).
+
+### The Sigmoid Function
+
+It is called **Logistic** regression since it makes use of the Logistic function, which is also called Sigmoid.
+
+This function is used to map the predicted values to probabilities. We apply it on the score so that all the values are transformed into the range between 0 to 1.
+
+**Formula:**
+
+### $S(x) = {1 \over (1+e^(-x))}$
+
+<br/>
+
+```py
+def logistic_regression(xi):
+  score = w0
+
+  for j in range(len(w)):
+    score = score + xi[j]*w[j]
+
+  result = sigmoid(score)
+  return result
+```
+> We can see that the code above is very similar to Linear Regression; except, we have applied the Sigmoid Function.
+
+![image](https://user-images.githubusercontent.com/70928356/194294354-c6500f6c-0cd5-485c-a3d5-d8d5d4272f93.png)
