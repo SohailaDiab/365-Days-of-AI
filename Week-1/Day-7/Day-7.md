@@ -71,3 +71,17 @@ It is called one-hot because only one bit is “hot” or TRUE at any time.
 You can read more about other techniques in categorical data encoding <a href="https://analyticsindiamag.com/a-complete-guide-to-categorical-data-encoding/">here</a>.
 
 ## 9. Logistic Regression
+
+### What is Logistic Regression?
+It is a supervised machine learning classification algorithm used to predict the probability of a binary target variable occurring.<br/>
+Logstic Regression deals with **binary classification**. 
+
+Target values can only be 0s and 1s:
+<br/>
+ - 1: Positive (churn)
+ - 0: Negative (no churn)
+
+g(xi) -> 0-1 (probability of xi belonging to the positive class)
+
+The output is the probability of the positive target variable occuring. <br/>
+Using the churn prediction example, if the output is 0.7, it means that there is a 70% chance that the customer will churn.
