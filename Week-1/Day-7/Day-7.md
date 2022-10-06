@@ -5,7 +5,7 @@ We will use logistic regression to predict churn.
 
 
 ## Table of contents
-<a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/ChurnPrediction.ipynb">Notebook</a>
+All that is explained here is implemented in this <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/ChurnPrediction.ipynb">Notebook</a>.
 
 <ol>
   <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-6/Day-6.md">In Day 6:</a>
@@ -18,8 +18,15 @@ We will use logistic regression to predict churn.
   <li>Feature Importance: Correlation Coefficient</li>
   <b>Continuation:</b>
   <li><a href="#8-one-hot-encoding">One-hot Encoding</a></li>
-  <li><a href="#9-logistic-regression">Logistic Regression</a></li>
+  <li><a href="#9-logistic-regression">Logistic Regression</a>
+    <ol>
+      <li><a href="#what-is-logistic-regression">What is Logistic Regression?</li>
+      <li><a href="#the-sigmoid-function">The Sigmoid Function</li>
+    </ol>
+  </li>
 </ol>
+
+
 
 ## 8. One-hot encoding
 
@@ -113,3 +120,8 @@ def logistic_regression(xi):
 > We can see that the code above is very similar to Linear Regression; except, we have applied the Sigmoid Function.
 
 ![image](https://user-images.githubusercontent.com/70928356/194294354-c6500f6c-0cd5-485c-a3d5-d8d5d4272f93.png)
+
+We have a threshold value, in which if the values cross it, we can classify the outcome as 1 (TRUE/positive). Otherwise, it will be classified as 0 (FALSE/negative).
+
+In the image above, the treshold value is 0.5.<br/>
+Let's go back again to the churn example. If the value is above 0.5, it means that the **customer will churn**, and if it is below 0.5, it means that the **customer will not churn**.
