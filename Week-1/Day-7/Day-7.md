@@ -31,9 +31,8 @@ All that is explained here is implemented in this <a href="https://github.com/So
 ## 8. One-hot encoding
 
 ### What is one-hot encoding?
-It is a technique used to quantify categorical data that are not oridinal, we convert a categorical variable into a bunch of binary variables.
+It is a technique used to quantify categorical data. We convert a categorical variable into a bunch of binary variables.
 <br/>
-*p.s. Ordinal means that the values are not ranked and are all of the same importance.*
 
 **Let's take talk about an example to better understand this:**
 <br/>
