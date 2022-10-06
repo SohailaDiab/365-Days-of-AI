@@ -65,10 +65,12 @@ Other than that, I will document my side projects as well as ML and DL topics th
     - Feature Importance: Churn Rate and Risk Ratio
     - Feature Importance: Mutual Information
     - Feature Importance: Correlation Coefficient
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/ChurnPrediction.ipynb">Notebook</a>
 - **Day 7**
-  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-7/Day-7.md">Customer Churn Prediction Project - 2(final)</a>
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-7/Day-7.md">Customer Churn Prediction Project - 2 (final)</a>
     - One-hot Encoding
     - Logistic Regression
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/ChurnPrediction.ipynb">Notebook</a>
   - Week 3 ZoomCamp HW (in progress)
   
   
