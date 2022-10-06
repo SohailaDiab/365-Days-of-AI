@@ -7,26 +7,26 @@ Other than that, I will document my side projects as well as ML and DL topics th
 
 <details><summary>ZoomCamp Plan</summary>
 
-| Id | Module Session                                | Progress | Link    | 
-|----|-----------------------------------------------|-----|--------------|
-|01  | Introduction to Machine Learning              | :white_check_mark: | [<a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-1.md">Introduction to Machine Learning</a>] |
-|02  | Machine Learning for Regression               | :white_check_mark: | []|
-|03  | Machine Learning for Classification           | :x: | []|
-|04  | Evaluation Metrics for Classification         | :x: | []|
-|05  | Deploying Machine Learning Models             | :x: | []|
-|5b  | Bento ML                                      | :x: | []|
-|06  | Decision Trees and Ensemble Learning          | :x: | []|
-|07  | Midterm Project                               | :x: | []|
-|07  | Midterm Project Evaluation                    | :x: | []|
-|08  | Neural Networks and Deep Learning             | :x: | []|
-|09  | Serverless Deep Learning                      | :x: | []|
-|10  | Kubernetes and TensorFlow-Serving             | :x: | []|
-|11  | Kubeflow and KFServing                        | :x: | []|
-|12  | Capstone Project                              | :x: | []|
-|12  | Capstone Project Evaluation                   | :x: | []|
-|13  | The third Project                             | :x: | []|
-|13  | The third Project Evaluation                  | :x: | []|
-|14  | Article                                       | :x: | []|
+| Id | Module Session                                | Progress |
+|----|-----------------------------------------------|-----|
+|01  | Introduction to Machine Learning              | :white_check_mark: | 
+|02  | Machine Learning for Regression               | :white_check_mark: |
+|03  | Machine Learning for Classification           | :white_check_mark: | 
+|04  | Evaluation Metrics for Classification         | :x: | 
+|05  | Deploying Machine Learning Models             | :x: | 
+|5b  | Bento ML                                      | :x: | 
+|06  | Decision Trees and Ensemble Learning          | :x: |
+|07  | Midterm Project                               | :x: | 
+|07  | Midterm Project Evaluation                    | :x: | 
+|08  | Neural Networks and Deep Learning             | :x: | 
+|09  | Serverless Deep Learning                      | :x: | 
+|10  | Kubernetes and TensorFlow-Serving             | :x: | 
+|11  | Kubeflow and KFServing                        | :x: | 
+|12  | Capstone Project                              | :x: | 
+|12  | Capstone Project Evaluation                   | :x: | 
+|13  | The third Project                             | :x: | 
+|13  | The third Project Evaluation                  | :x: | 
+|14  | Article                                       | :x: | 
 
 </details>
 
@@ -57,3 +57,18 @@ Other than that, I will document my side projects as well as ML and DL topics th
   - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-4/Week2_HW.ipynb">Week 2 ZoomCamp HW</a>
 - **Day 5** 
   - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-5/MAE.md">Mean Absolute Error</a>
+- **Day 6**
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-6/Day-6.md">Customer Churn Prediction Project - 1</a>
+    - Data Preparation
+    - Setting Up the Validation Framework
+    - EDA
+    - Feature Importance: Churn Rate and Risk Ratio
+    - Feature Importance: Mutual Information
+    - Feature Importance: Correlation Coefficient
+- **Day 7**
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-7/Day-7.md">Customer Churn Prediction Project - 2(final)</a>
+    - One-hot Encoding
+    - Logistic Regression
+  - Week 3 ZoomCamp HW (in progress)
+  
+  
