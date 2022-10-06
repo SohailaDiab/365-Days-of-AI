@@ -34,7 +34,7 @@ All that is explained here is implemented in this <a href="https://github.com/So
 It is a technique used to quantify categorical data. We convert a categorical variable into a bunch of binary variables.
 <br/>
 
-**Let's take talk about an example to better understand this:**
+**Let's talk about an example to better understand this:**
 <br/>
 Say, we have a categorical variable called "Color", which consists of red, yellow and green. 
 
