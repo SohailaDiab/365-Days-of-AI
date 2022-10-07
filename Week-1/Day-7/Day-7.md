@@ -45,7 +45,7 @@ In the first record shown in the picture below, the color is red. Therefore, the
 
 ![image](https://user-images.githubusercontent.com/70928356/194159405-3a741d2e-100b-462c-836d-86d09cc8a292.png)
 
-### Wy do we use one-hot encoding?
+### Why do we use one-hot encoding?
 Some ML algorithms can comprehend categorical variables, such as decision tree algorithm. However, many other algorithms cannot, and require the input to be numerical. This means that any categorical data must be mapped to integers.
 
 We could simply just assign a number for each categorical variable, right? Like 1 for blue, 2 for red, etc. <br/>
