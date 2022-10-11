@@ -71,6 +71,4 @@ Other than that, I will document my side projects as well as ML and DL topics th
     - One-hot Encoding
     - Logistic Regression
   - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/ChurnPrediction.ipynb">Notebook</a>
-  - Week 3 ZoomCamp HW (in progress)
-  
-  
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-7/Week3_HW.ipynb">Week 3 ZoomCamp HW</a>  
