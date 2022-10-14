@@ -74,8 +74,11 @@ Here, we are only interested in the positive class (ones that we predicted will 
 
 ### $Precision = {True \ Positive  \over Total \ Positive \ Predictions} = {TP \over TP+FP}$
 
+The higher the precision, the better.
+
 Let's say that the result was 67%.</br>
 This means that 33% of the people that received a promotional email were not going to churn and were not supposed to receive these emails.
+
 
 ## 4. Recall
 It is the fraction of correctly identified positive observations, which in this example are the correctly identified churning users.
@@ -83,6 +86,8 @@ It is the fraction of correctly identified positive observations, which in this 
 Here, we are only interested in the total actual positive observations.
 
 ### $Recall = {True \ Positive  \over Total \ Positive \ Observations} = {TP \over TP+FN}$
+
+The higher the recall, the better.
 
 Let's say that the result was 54%. </br>
 This means that we failed to identify 46% of the people who will churn, which is not a good thing.
