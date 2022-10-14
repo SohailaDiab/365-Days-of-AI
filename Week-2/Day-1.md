@@ -4,7 +4,7 @@
 Continuing on the Churn Prediction Example
 
 ## Table of Contents
-All that is explained here is implemented in this <a href="">Notebook</a>.
+All that is explained here is implemented in this <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-2/Evaluation_Metrics_for_Classification.ipynb">Notebook</a>.
 
 <ol>
   <li><a href="#1-accuracy">Accuracy</a></li>
