@@ -12,7 +12,7 @@ Other than that, I will document my side projects as well as ML and DL topics th
 |01  | Introduction to Machine Learning              | :white_check_mark: | 
 |02  | Machine Learning for Regression               | :white_check_mark: |
 |03  | Machine Learning for Classification           | :white_check_mark: | 
-|04  | Evaluation Metrics for Classification         | :x: | 
+|04  | Evaluation Metrics for Classification         | :white_check_mark: | 
 |05  | Deploying Machine Learning Models             | :x: | 
 |5b  | Bento ML                                      | :x: | 
 |06  | Decision Trees and Ensemble Learning          | :x: |
@@ -71,4 +71,6 @@ Other than that, I will document my side projects as well as ML and DL topics th
     - One-hot Encoding
     - Logistic Regression
   - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/ChurnPrediction.ipynb">Notebook</a>
-  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-7/Week3_HW.ipynb">Week 3 ZoomCamp HW</a>  
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-7/Week3_HW.ipynb">Week 3 ZoomCamp HW</a>
+## Week 2
+- **Day 8** 
