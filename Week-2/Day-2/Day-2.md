@@ -15,6 +15,7 @@ All that is explained here is implemented in this <a href="https://github.com/So
   Continuation:
   <li><a href="#5-roc-curve">ROC Curve</a></li>
   <li><a href="#6-auc-roc-curve">AUC-ROC Curve</a></li>
+  <li><a href="#7-cross-validation">Cross Validation</a></li>
 </ol>
 
 ## 5. ROC Curve
@@ -55,3 +56,7 @@ Since ROC is a curve of probability, AUC can be interpreted as the probability t
 
 ![image](https://user-images.githubusercontent.com/70928356/196759906-efbec714-baf5-4540-a49f-596358c04889.png)
 
+## 7. Cross Validation
+We cannot simply say that the model is performing well because it predicted accurate on the training set, we need to also see if it **generalizes** well on unseen data. It is also important to see if the model is stable and performs almost similarly for different sets of data, and this is where Cross-Validation comes in.
+
+It is different from your usual train-test-split
