@@ -57,6 +57,11 @@ Since ROC is a curve of probability, AUC can be interpreted as the probability t
 ![image](https://user-images.githubusercontent.com/70928356/196759906-efbec714-baf5-4540-a49f-596358c04889.png)
 
 ## 7. Cross Validation
-We cannot simply say that the model is performing well because it predicted accurate on the training set, we need to also see if it **generalizes** well on unseen data. It is also important to see if the model is stable and performs almost similarly for different sets of data, and this is where Cross-Validation comes in.
+We cannot simply say that the model is performing well because it predicted accurately on the training set, we need to also see if it **generalizes** well on unseen data. It is also important to see if the model is **stable** and performs almost similarly for different sets of data, and this is where Cross-Validation comes in, which is different from your usual train-test-split.
 
-It is different from your usual train-test-split
+### What is Cross Validation?
+It is a statistical method that allows us to estimate the performance of our ML model.
+Cross-Validation allows us to compare different machine learning methods and get a sense of how they work in practice.
+
+![image](https://user-images.githubusercontent.com/70928356/196768351-39c9e26a-a73f-4c03-a951-a316285ab6b2.png)
+
