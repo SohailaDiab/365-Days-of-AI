@@ -14,6 +14,7 @@ All that is explained here is implemented in this <a href="https://github.com/So
   <li>Recall</li>
   Continuation:
   <li><a href="#5-roc-curve">ROC Curve</a></li>
+  <li><a href="#6-auc-roc-curve">AUC-ROC Curve</a></li>
 </ol>
 
 ## 5. ROC Curve
@@ -37,3 +38,20 @@ $False\ Positive \ Rate = \frac{ False \ Positive }{ False Positive + True Negat
 An ROC curve plots TPR vs. FPR at all the possible classification thresholds. Lowering the classification threshold classifies more items as positive, thus increasing both False Positives and True Positives. If the threshold is 0 or 1, the TPR and Recall scores are the opposite of the threshold (1 and 0 respectively), but they have different meanings, as we explained before.
 
 ![image](https://user-images.githubusercontent.com/70928356/196720835-643759d3-0e94-4290-8e44-4756a007ef55.png)
+
+We need to compare the ROC curves against a point of reference to evaluate its performance, so the corresponding curves of random and ideal models are required. It is possible to plot the ROC curves with FPR and Recall scores vs thresholds, or FPR vs Recall.
+
+**Classes and methods:**
+- `np.repeat([x,y], [z,w])` - returns a numpy array with a z number of x values, and a w number of y values.
+- `roc_curve(x, y)` - sklearn.metrics class for calculating the false positive rates, true positive rates, and thresholds, given a target x dataset and a predicted y dataset.
+
+## 6. AUC-ROC Curve
+One way of identifying how close we are to the ideal point (top left) in the ROC curve is measuring the **Area under the curve**.
+</br>
+The higher the AUC, the better the performance of the model at distinguishing between the positive and negative classes.
+
+The AUC of an ideal model would be 1, and would be 0.5 for a random model.</br>
+Since ROC is a curve of probability, AUC can be interpreted as the probability that a randomly selected positive example has a greater score than a randomly selected negative example.
+
+![image](https://user-images.githubusercontent.com/70928356/196759906-efbec714-baf5-4540-a49f-596358c04889.png)
+
