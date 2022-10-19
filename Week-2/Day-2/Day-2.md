@@ -63,5 +63,4 @@ We cannot simply say that the model is performing well because it predicted accu
 It is a statistical method that allows us to estimate the performance of our ML model.
 Cross-Validation allows us to compare different machine learning methods and get a sense of how they work in practice.
 
-![image](https://user-images.githubusercontent.com/70928356/196768351-39c9e26a-a73f-4c03-a951-a316285ab6b2.png)
-
+![image](https://user-images.githubusercontent.com/70928356/196815046-1e459ace-f2a4-4928-99ce-3424b33b77fe.png)
