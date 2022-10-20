@@ -59,8 +59,19 @@ Since ROC is a curve of probability, AUC can be interpreted as the probability t
 ## 7. Cross Validation
 We cannot simply say that the model is performing well because it predicted accurately on the training set, we need to also see if it **generalizes** well on unseen data. It is also important to see if the model is **stable** and performs almost similarly for different sets of data, and this is where Cross-Validation comes in, which is different from your usual train-test-split.
 
+Splitting the data into train and test, usually 80%/20% or 70%/30%, etc. respectively, is called the **Hold-out** method. 
+
 ### What is Cross Validation?
 It is a statistical method that allows us to estimate the performance of our ML model.
 Cross-Validation allows us to compare different machine learning methods and get a sense of how they work in practice.
+
+We will talk about **K-fold** cross validation.
+
+So, what is K-Fold cross validation?
+Instead of simply splitting the data to train and test set, we will split the data into **k-folds** (basically k parts) of equal sizes. We train on k-1 folds and validate on 1 fold
+
+What you see in the image below is 5-fold cross validation, since here k=5. We divide the input data into 5 parts and use 4 parts for training and 1 part for validation.
+
+
 
 ![image](https://user-images.githubusercontent.com/70928356/196815046-1e459ace-f2a4-4928-99ce-3424b33b77fe.png)
