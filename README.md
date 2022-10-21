@@ -74,3 +74,15 @@ Other than that, I will document my side projects as well as ML and DL topics th
   - <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-1/Day-7/Week3_HW.ipynb">Week 3 ZoomCamp HW</a>
 ## Week 2
 - **Day 8** 
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/tree/main/Week-2/Day-1">Evaluation Metrics for Classification - 1</a>
+    - Accuracy
+    - Confusion Matrix
+    - Precision
+    - Recall
+- **Day 9**
+  - <a href="https://github.com/SohailaDiab/365-Days-of-AI/tree/main/Week-2/Day-1">Evaluation Metrics for Classification - 2</a>
+    - ROC Curve
+    - AUC-ROC Curve
+    - Cross Validation
+    - Accuracy
+
