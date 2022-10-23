@@ -85,4 +85,5 @@ Other than that, I will document my side projects as well as ML and DL topics th
     - AUC-ROC Curve
     - Cross Validation
     - Accuracy
+- **Day 10**
 
