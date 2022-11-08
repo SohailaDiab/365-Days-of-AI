@@ -23,3 +23,17 @@ Patterns observed in time-series are expected to persist in the future. That is 
 ### Examples:
 - Meteorologists often cope with the task of forecasting the weather for days ahead to make remotely accurate predictions on a consistent basis. They rely on analyzing past data. Needless to say, **if the data is not recorded chronologically, finding the correct pattern would be extremely difficult**.
 - Predict if sales will decrease or increase in the future and determine the stability of financial markets and efficiency portfolios.
+
+## Notation
+Time-series variables:
+
+- `X` : A variable that changes over a period of time.
+- `T` : Entire period covered by a time-series.
+- `t` : A single period within the interval.
+
+**Example:**
+
+- X: Daily closing prices for 2008
+- T: Entire year
+- t: A single day
+- X<sub>t</sub> = X<sub>date/time/year</sub>: Closing price at a specific day
