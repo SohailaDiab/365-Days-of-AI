@@ -37,3 +37,26 @@ Time-series variables:
 - T: Entire year
 - t: A single day
 - X<sub>t</sub> = X<sub>date/time/year</sub>: Closing price at a specific day
+
+## Peculiarities of Time-Series Data
+
+### Missing Values
+Intervals between different observations need to be identical. If this is not the case, it is usually due to **missing values <br>
+Values between consecutive periods usually affect each other and this can stir tons of trouble. So we must find ways to handle these limitations.
+
+### Adjusting Frequency
+We can adjust a frequency of a dataset depending on the values we are interested in.
+
+For example, if we have daily data but want to conduct a monthly analysis, we need to compute some average value of all the individual daily data values. In this case, by aggregating the data, we will try to determine the best way to describe each month.
+
+### Increasing Frequency
+Sometimes we have to increase the frequency. This leads to an **increase in the number of time periods within the interval**, and consequently to new time periods without any values assigned to them.
+
+To analyze the data successfully we need to approximate or impute the missing values for these periods.
+
+### Splitting Data
+Unlike other types of data, time-series data must be in **chronological order**. Meaning, if we want to perform ML we cannot shuffle the data before splitting it into train and test sets.
+
+What we do instead is pick a cut-off point. The period before the cut-off point is the training set and the period after the cut-off point is the testing set.
+
+The testing set is considered the future data.
