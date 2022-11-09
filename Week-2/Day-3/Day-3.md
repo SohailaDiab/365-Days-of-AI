@@ -60,3 +60,8 @@ Unlike other types of data, time-series data must be in **chronological order**.
 What we do instead is pick a cut-off point. The period before the cut-off point is the training set and the period after the cut-off point is the testing set.
 
 The testing set is considered the future data.
+
+### Distributions 
+Graphs of time-series data do not follow any of the standard distributions. It's because time-series data never satisfies Gauss Markov assumptions, unlike regular linear regression data.
+
+Instead, time series data assumes that past patterns in the variable will continue unchanged in the future. Using this approach, we will forecast our predictions about future values.
