@@ -39,4 +39,4 @@ In order to consider a time-series as covariance stationarity it should have:
 
 Example of weak form stationary process is white noise.
 
-**Note2self: Read more about it...**
+**Note: WIP...**
