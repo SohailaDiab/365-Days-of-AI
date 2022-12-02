@@ -59,4 +59,23 @@ Here: <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-2/Da
 
 ![image](https://user-images.githubusercontent.com/70928356/205274457-1e59e274-4349-4d70-9342-8e5fe855e2f5.png)
 
-- Wrap the prediction script (Python file) into a flask app
+Wrap the prediction script (Python file) into a flask app <br>
+Here: <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-2/Day-3/predict.py">predict.py</a>
+
+- Use POST method, since we want to send info about the customer
+```python
+app = Flask('churn')
+@app.route('/predict', methods=['POST'])
+```
+- In the **predict** function, we take the body of the **request** as json, which contains the customer info we will use as features.
+- Return the **response** also as a json. This contains the prediction.
+
+However, when we run this, we will get an error:
+
+![image](https://user-images.githubusercontent.com/70928356/205276787-ea412705-de73-4b22-80f8-e30601555281.png)
+
+This happens if we directly run predict.py since a browser is sending a GET request, but it says 405 meaning the method is not allowed.
+
+The allowed method is post, since in the predict.py file we typed `@app.route('/predict', methods=['POST'])`.
+
+We need to send a post request and from the browser it's not easy. So we will do it in a notebook instead.
