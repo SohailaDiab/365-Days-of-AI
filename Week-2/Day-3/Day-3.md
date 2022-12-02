@@ -62,6 +62,12 @@ Here: <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-2/Da
 Wrap the prediction script (Python file) into a flask app <br>
 Here: <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-2/Day-3/predict.py">predict.py</a>
 
+- If Flask is run in `DEBUG` mode, it reloads the server after every change to app file
+```python 
+if __name__ == "__main__":
+    app.run(debug=True, host='0.0.0.0', port=20303)
+```
+
 - Use POST method, since we want to send info about the customer
 ```python
 app = Flask('churn')
@@ -79,6 +85,19 @@ app = Flask('churn')
 - We need to send a post request and from the browser it's not easy. So we will do it like this <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-2/Day-3/predict-test.ipynb">notebook</a> instead.
 
 **We might also get response `500`**.
-This means that the server encountered an unexpected condition that prevented it from fulfilling the request.
+- This means that the server encountered an unexpected condition that prevented it from fulfilling the request.
+- This could be because there is a problem with the response. In our case, it happened because the result wasn't able to be converted to JSON. NumPy bool and float cannot be interpreted by JSON, so we first convert them to normal python bool and float.
 
-This could be because there is a problem with the response. In our case, it happened because the result wasn't able to be converted to JSON. NumPy bool and float cannot be interpreted by JSON, so we first convert them to normal python bool and float.
+**Response `200`**
+- OK success status. This means that the request was received, understood, and is being processed.
+
+### Predicting in production
+Example saved in <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-2/Day-3/predict.py">predict.py</a>
+- For debug mode run in terminal python `predict.py` (we set "debug=True")
+- This is **only for developing**, for production we need to use something else, but not plain Flask, e.g. **gunicorn** or **waitress**
+
+- To use Flask app for production, write in terminal:<br>
+`gunicorn --bind 0.0.0.0:20303 predict:app`
+- Preparing for production: gunicorn
+- Running it on Windows with waitress _(gunicorn is not supprted by windows)_:<br>
+`waitress-serve --listen=0.0.0.0:9696 predict:app`
