@@ -55,3 +55,8 @@ Here: <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-2/Da
 
 - OR you can view it on the web browser by typing `http://192.168.1.104:2020/ping` in the bar
 
+## 3. Serving the Churn Model with Flask
+
+![image](https://user-images.githubusercontent.com/70928356/205274457-1e59e274-4349-4d70-9342-8e5fe855e2f5.png)
+
+- Wrap the prediction script (Python file) into a flask app
