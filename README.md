@@ -86,4 +86,5 @@ Other than that, I will document my side projects as well as ML and DL topics th
     - Cross Validation
     - Accuracy
 - **Day 10**
+  - Deployment
 
