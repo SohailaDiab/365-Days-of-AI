@@ -70,12 +70,15 @@ app = Flask('churn')
 - In the **predict** function, we take the body of the **request** as json, which contains the customer info we will use as features.
 - Return the **response** also as a json. This contains the prediction.
 
-However, when we run this, we will get an error:
+**However, when we run this, we will get an error:**
 
 ![image](https://user-images.githubusercontent.com/70928356/205276787-ea412705-de73-4b22-80f8-e30601555281.png)
 
-This happens if we directly run predict.py since a browser is sending a GET request, but it says 405 meaning the method is not allowed.
+- This happens if we directly run predict.py since a browser is sending a GET request, but it says 405 meaning the method is not allowed.
+- The allowed method is post, since in the predict.py file we typed `@app.route('/predict', methods=['POST'])`.
+- We need to send a post request and from the browser it's not easy. So we will do it like this <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/main/Week-2/Day-3/predict-test.ipynb">notebook</a> instead.
 
-The allowed method is post, since in the predict.py file we typed `@app.route('/predict', methods=['POST'])`.
+**We might also get response `500`**.
+This means that the server encountered an unexpected condition that prevented it from fulfilling the request.
 
-We need to send a post request and from the browser it's not easy. So we will do it in a notebook instead.
+This could be because there is a problem with the response. In our case, it happened because the result wasn't able to be converted to JSON. NumPy bool and float cannot be interpreted by JSON, so we first convert them to normal python bool and float.
