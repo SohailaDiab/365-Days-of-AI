@@ -28,3 +28,9 @@ We will use `pickle` to save, which is a built-in library for saving Python obje
 with open(model_file, 'rb') as f_in:
   dv, model = pickle.load(f_in)
 ```
+
+### Turn notebook into Python script
+Download as `.py` file
+
+## 2. Web Services: Introduction to Flask
+### A simple ping pong app
