@@ -101,3 +101,11 @@ Example saved in <a href="https://github.com/SohailaDiab/365-Days-of-AI/blob/mai
 - Preparing for production: gunicorn
 - Running it on Windows with waitress _(gunicorn is not supprted by windows)_:<br>
 `waitress-serve --listen=0.0.0.0:9696 predict:app`
+
+## 4. Python Virtual Environment: Pipenv
+
+### Using pipenv
+- Install pipenv: `pip install pipenv`
+- In the directory of the project, to download libraries use `pipenv install` instead of `pip install`
+- In this project, we will need:<br>
+`pipenv install numpy scikit-learn==0.24.2 flask`
